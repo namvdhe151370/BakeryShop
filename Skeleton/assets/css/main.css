@@ -1,0 +1,76 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+main {
+    margin-top: 15px;
+    padding: 2rem 1.5rem;
+    background: #f1f5f9;
+    min-height: calc(100vh - 90px);
+}
+.cards {
+    display: flex ; 
+    justify-content: space-between; 
+    padding: 2rem;
+    background-color: #fff ;
+}
+.row {
+    height: 700px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+div{
+    padding: 10px;
+    border-radius: 5px;
+}
+.panel .panel-heading {
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 30px;    
+}
+.panel .panel-body {
+    background: #f1f5f9;
+    padding: 50px;
+    font-size: 300px;
+}
+.header .left{
+    font-size: 25px;
+    text-decoration: none;   
+}
+.header .left .pic {
+    width: 30px;
+}
+.header .right{
+    float:right !important;
+}
+#tablestar th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f1f5f9;
+    color: black;
+  }
+  #tablestar td, #tbablestar th {
+    border: 2px solid #ddd;
+    padding: 8px;
+  }
+  #tablestar {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .panel .panel-body2{
+    font-size: 20px;
+    padding: 5px;
+  }
+ #tablestar img{
+     width: 30px;
+     
+ }
+ #text{
+     color: black;
+ }
+ 
+

@@ -1,0 +1,21 @@
+
+body{
+    padding: 1px;
+}
+
+.profile--wrapper{
+    padding: 20px;
+    margin: 150px 0px;
+    background-color: papayawhip;
+    border-radius: 20px;   
+}
+
+.modal input, label,
+.profile--wrapper a,
+.profile--wrapper button, input{
+    font-size: 20px;
+}
+
+.modal h4{
+    font-size: 24px;
+}

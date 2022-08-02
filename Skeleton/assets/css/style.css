@@ -1,0 +1,36 @@
+.slide{
+    padding: 15px;
+    border-bottom: 2px solid gray;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn.btn-default{
+    margin-top: 16px;
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
+
+.special--menu,
+.maxim,
+.blognews,
+footer{
+    padding: 16px 0px;
+    margin-top: 16px;
+    border-top: 2px solid gray;
+}
+
+.block--product img,
+footer img{
+    width: 300px;
+}
+
+.checked{
+    color: orange;
+}
+
+.maxim img{
+    width: 100%;
+}

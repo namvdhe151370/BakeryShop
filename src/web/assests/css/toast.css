@@ -1,0 +1,61 @@
+.toastx{
+    position: relative;
+    text-align: center;
+}
+
+.toastx .wrapper{
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 9999999;
+}
+
+.wrapper--sucess{
+    background-color: rgba(135, 207, 235, 0.945);
+}
+
+.toastx .wrapper p{
+    color: white !important;
+}
+
+.toastx .wrapper--sucess i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+
+.toastx .wrapper--error{
+    background-color: rgb(220 76 76 / 62%);
+}
+
+.toastx .wrapper--error i{
+    padding: 10px 15px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+@keyframes display {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes remove{
+    to{
+        opacity: 0;
+    }
+}

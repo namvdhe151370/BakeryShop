@@ -1,0 +1,5 @@
+password: abcd1234
+
+admin:   hoangdxhe151343@fpt.edu.vn
+sale:   xuanzhoagfu145@gmail.com
+marketing:   thaihh@fpt.edu.vn
